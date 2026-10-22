@@ -31,8 +31,8 @@ First-author entries currently include:
 | Video-Arena | looping preview video `images/video-arena.mp4` | paper / project / github / dataset / demo |
 | PIVOT | `images/PIVOT.png` (Figure 1 from the ICLR 2027 draft) | venue only for now |
 | Skill Adaptation | `images/skill-adaptation.png` (method pipeline from the project page) | paper PDF / project page |
-| Structuring Reasoning | `images/DAT.png` | arXiv |
 | EVADE | `images/EVADE-Bench.png` | project / arXiv |
+| Structuring Reasoning | `images/DAT.png` | arXiv |
 
 Venue lines use italic 15px text in the form `SIGIR, 2026 (CCF-A)`. Preprints are written as `arXiv, 2026`. Coauthor names link to a homepage when one could be verified, and otherwise to a Google Scholar search. Zhihao Yang stays unlinked and bold.
 
