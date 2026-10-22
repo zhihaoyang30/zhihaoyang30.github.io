@@ -7,7 +7,9 @@
 
     <meta name="author" content="Zhihao Yang">
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    <link rel="shortcut icon" href="images/favicon/favicon.ico" type="image/x-icon">
+    <link rel="icon" href="images/favicon/favicon.ico?v=curry" type="image/x-icon">
+    <link rel="icon" type="image/png" sizes="32x32" href="images/favicon/favicon-32x32.png?v=curry">
+    <link rel="apple-touch-icon" href="images/favicon/apple-touch-icon.png?v=curry">
     <link rel="stylesheet" type="text/css" href="stylesheet.css">
     
   </head>
@@ -26,15 +28,18 @@
                   Hello! Welcome to my homepage.<br><br>
                   I am a first-year Ph.D. student in Computer Science at the 
                   <a href="https://english.ucas.ac.cn/">University of Chinese Academy of Sciences (UCAS)</a>, 
-                  advised by <a href="https://minyang.me/">Prof. Min Yang</a>. 
+                  advised by <a href="https://www.icip.org.cn/hanxianpei/">Prof. Xianpei Han</a>. 
                   Prior to this, I obtained my B.Eng. degree in Computer Science from 
                   <a href="https://www.tongji.edu.cn/">Tongji University</a>.
-                  I am generally interested in <strong>LLM and VLM Reasoning</strong>, especially in advanced inference strategies 
-                  (such as test-time guidance, collaborative verification, and data synthesis). 
-                  Previously, I was fortunate to be advised by <a href="https://vanoracai.github.io/">Prof. Yujun Cai</a>.
+                  I am interested in <strong>Game &amp; Agent</strong>.
+                  Previously, I was fortunate to be advised by <a href="https://minyang.me/">Prof. Min Yang</a> and <a href="https://vanoracai.github.io/">Prof. Yujun Cai</a>.
+                </p>
+                <p>
+                  I enjoy basketball and rock climbing. My favorite team is the <a href="https://www.nba.com/warriors/">Golden State Warriors</a>.
+                  I am a huge fan of <a href="https://www.nba.com/player/201939/stephen-curry">Stephen Curry</a>!
                 </p>            
                 <p style="text-align:left">
-                  <a href="zh.yang30@outlook.com">Email</a> &nbsp;/&nbsp;
+                  <a href="mailto:zh.yang30@outlook.com">Email</a> &nbsp;/&nbsp;
                   <a href="./images/wechat_qr.jpg" target="_blank">Wechat</a> &nbsp;/&nbsp;
                   <!-- <a href="data/JonBarron-CV.pdf">CV</a> &nbsp;/&nbsp; -->
                   <!-- <a href="data/JonBarron-bio.txt">Bio</a> &nbsp;/&nbsp; -->
@@ -72,8 +77,147 @@
     <table style="width:100%;border:0px;border-spacing:0px;border-collapse:separate;margin-right:auto;margin-left:auto;"><tbody>
 
     <tr>
-      <td style="padding:8px 16px 0;">
+      <td style="padding:8px 16px 0;" colspan="2">
         <h3 style="margin:0;">First Author</h3>
+        <p class="pub-note">* equal contribution; † corresponding author</p>
+      </td>
+    </tr>
+
+    <!-- First Author: Scaling in Games -->
+    <tr>
+      <td style="padding:16px;width:20%;vertical-align:middle">
+        <a class="paper-thumb" href="https://gamescaling.github.io/videos/promo/promo.mp4" target="_blank" rel="noopener noreferrer">
+          <video autoplay muted loop playsinline preload="metadata" poster="images/gamescaling.jpg" aria-label="Nine simultaneous GameScaling demos in a 3 by 3 grid">
+            <source src="images/gamescaling.mp4" type="video/mp4">
+          </video>
+        </a>
+      </td>
+      <td style="padding:8px;width:80%;vertical-align:middle">
+        <a href="https://arxiv.org/abs/2610.28698">
+          <span class="papertitle">Scaling in Games: Continued Pre-Training for Embodied Agents in Diverse Virtual Worlds</span>
+        </a><br>
+        <span class="author-block"><a href="https://itheresaapocalypse.github.io/">Kuan Zhang</a><sup>*</sup>,</span>
+        <span class="author-block"><a href="https://scholar.google.com/citations?user=JWxSJVgAAAAJ&hl=en">Yukun Chen</a><sup>*</sup>,</span>
+        <span class="author-block"><strong class="author-self">Zhihao Yang</strong><sup>*</sup>,</span>
+        <span class="author-block"><a href="https://selen-suyue.github.io/">Yue Su</a>,</span>
+        <span class="author-block"><a href="https://xiangnan-wu.github.io/">Xiangnan Wu</a>,</span>
+        <span class="author-block"><a href="https://github.com/zrchen03">Zirong Chen</a>,</span>
+        <span class="author-block"><a href="https://rainbowluocs.github.io/">Run Luo</a>,</span>
+        <span class="author-block"><a href="https://scholar.google.com/scholar?q=%22Jinkun+Hou%22">Jinkun Hou</a>,</span>
+        <span class="author-block"><a href="https://scholar.google.com/scholar?q=%22Tao+Tan%22+miHoYo">Tao Tan</a>,</span>
+        <span class="author-block"><a href="https://scholar.google.com/scholar?q=%22Yinhe+Zheng%22">Yinhe Zheng</a><sup>†</sup>,</span>
+        <span class="author-block"><a href="https://yimingli-page.github.io/">Yiming Li</a><sup>†</sup></span>
+        <br>
+        <span class="paper-venue">arXiv, 2026</span>
+        <span class="paper-links">
+          <a href="https://arxiv.org/abs/2610.28698">[paper]</a>
+          <a href="https://gamescaling.github.io/">[project page]</a>
+          <a href="https://github.com/THUSI-Lab/GameScaling">[github]</a>
+          <a href="https://huggingface.co/THUSI-Lab/GameScaling">[models]</a>
+          <a href="https://gamescaling.github.io/videos/promo/promo.mp4">[demo]</a>
+        </span>
+        <p>
+          How data, world diversity, and model size scale continued pre-training for embodied agents.
+        </p>
+      </td>
+    </tr>
+
+    <!-- First Author: Video-Arena -->
+    <tr>
+      <td style="padding:16px;width:20%;vertical-align:middle">
+        <a class="paper-thumb" href="https://videoarena-bench.github.io/videos/promo.mp4" target="_blank" rel="noopener noreferrer">
+          <video autoplay muted loop playsinline preload="metadata" poster="images/video-arena.jpg" aria-label="Video-Arena project overview">
+            <source src="images/video-arena.mp4" type="video/mp4">
+          </video>
+        </a>
+      </td>
+      <td style="padding:8px;width:80%;vertical-align:middle">
+        <a href="https://arxiv.org/abs/2610.14158">
+          <span class="papertitle">Video-Arena: A Scalable Agentic Video Benchmark for Spatiotemporal Capability</span>
+        </a><br>
+        <span class="author-block"><a href="https://itheresaapocalypse.github.io/">Kuan Zhang</a><sup>*</sup>,</span>
+        <span class="author-block"><a href="https://scholar.google.com/citations?user=JWxSJVgAAAAJ&hl=en">Yukun Chen</a><sup>*</sup>,</span>
+        <span class="author-block"><strong class="author-self">Zhihao Yang</strong><sup>*</sup>,</span>
+        <span class="author-block"><a href="https://selen-suyue.github.io/">Yue Su</a>,</span>
+        <span class="author-block"><a href="https://xiangnan-wu.github.io/">Xiangnan Wu</a>,</span>
+        <span class="author-block"><a href="https://github.com/zrchen03">Zirong Chen</a>,</span>
+        <span class="author-block"><a href="https://rainbowluocs.github.io/">Run Luo</a>,</span>
+        <span class="author-block"><a href="https://scholar.google.com/scholar?q=%22Tao+Tan%22+miHoYo">Tao Tan</a>,</span>
+        <span class="author-block"><a href="https://scholar.google.com/scholar?q=%22Yinhe+Zheng%22">Yinhe Zheng</a><sup>†</sup>,</span>
+        <span class="author-block"><a href="https://yimingli-page.github.io/">Yiming Li</a><sup>†</sup></span>
+        <br>
+        <span class="paper-venue">arXiv, 2026</span>
+        <span class="paper-links">
+          <a href="https://arxiv.org/abs/2610.14158">[paper]</a>
+          <a href="https://videoarena-bench.github.io/">[project page]</a>
+          <a href="https://github.com/THUSI-Lab/VideoArena">[github]</a>
+          <a href="https://huggingface.co/datasets/THUSI-Lab/Video-Arena">[dataset]</a>
+          <a href="https://videoarena-bench.github.io/videos/promo.mp4">[demo]</a>
+        </span>
+        <p>
+          A video benchmark for perceiving events, reading state updates, and tracking an evolving world.
+        </p>
+      </td>
+    </tr>
+
+    <!-- First Author: PIVOT -->
+    <tr>
+      <td style="padding:16px;width:20%;vertical-align:middle">
+        <span class="paper-thumb light">
+          <img src="images/PIVOT.png" alt="PIVOT method overview">
+        </span>
+      </td>
+      <td style="padding:8px;width:80%;vertical-align:middle">
+        <span class="papertitle">PIVOT: Progressive Intervention via Online Teacher Correction</span>
+        <br>
+        <span class="author-block"><strong class="author-self">Zhihao Yang</strong><sup>*</sup>,</span>
+        <span class="author-block"><a href="https://zhengbryan.github.io/">Boyuan Zheng</a><sup>*</sup>,</span>
+        <span class="author-block"><a href="https://scholar.google.com/scholar?q=%22Puhui+Tan%22">Puhui Tan</a><sup>*</sup>,</span>
+        <span class="author-block"><a href="https://scholar.google.com/citations?user=JWxSJVgAAAAJ&hl=en">Yukun Chen</a>,</span>
+        <span class="author-block"><a href="https://itheresaapocalypse.github.io/">Kuan Zhang</a>,</span>
+        <span class="author-block"><a href="https://scholar.google.com/scholar?q=%22Longze+Chen%22">Longze Chen</a>,</span>
+        <span class="author-block"><a href="https://scholar.google.com/scholar?q=%22Jiaming+Li%22+%22Min+Yang%22">Jiaming Li</a>,</span>
+        <span class="author-block"><a href="https://scholar.google.com/scholar?q=%22Renke+Shan%22">Renke Shan</a>,</span>
+        <span class="author-block"><a href="https://openreview.net/profile?id=~Lu_Wang26">Lu Wang</a><sup>†</sup>,</span>
+        <span class="author-block"><a href="https://www.icip.org.cn/hanxianpei/">Xianpei Han</a><sup>†</sup></span>
+        <br>
+        <span class="paper-venue">arXiv, 2026</span>
+        <p>
+          A teacher-assisted RLVR method that inserts teacher corrections into student rollouts and applies token-level KL supervision, nearly doubling mean avg@8 on hard logic games.
+        </p>
+      </td>
+    </tr>
+
+    <!-- First Author: Skill Adaptation / Harness -->
+    <tr>
+      <td style="padding:16px;width:20%;vertical-align:middle">
+        <a class="paper-thumb light" href="https://zhihaoyang30.github.io/skill-adaptation/">
+          <img src="images/skill-adaptation.png" alt="Skill adaptation pipeline">
+        </a>
+      </td>
+      <td style="padding:8px;width:80%;vertical-align:middle">
+        <a href="https://zhihaoyang30.github.io/skill-adaptation/">
+          <span class="papertitle">Evolving to Match Capabilities: Improving Harness Self-Evolution via Skill Adaptation</span>
+        </a><br>
+        <span class="author-block"><strong class="author-self">Zhihao Yang</strong><sup>*</sup>,</span>
+        <span class="author-block"><a href="https://haojinw0027.github.io/">Haojin Wang</a><sup>*</sup>,</span>
+        <span class="author-block"><a href="https://chtholly17.github.io/">Juncheng Wu</a><sup>*</sup>,</span>
+        <span class="author-block"><a href="https://itheresaapocalypse.github.io/">Kuan Zhang</a>,</span>
+        <span class="author-block"><a href="https://scholar.google.com/citations?user=JWxSJVgAAAAJ&hl=en">Yukun Chen</a>,</span>
+        <span class="author-block"><a href="https://rainbowluocs.github.io/">Run Luo</a>,</span>
+        <span class="author-block"><a href="https://yaojie.lu/">Yaojie Lu</a>,</span>
+        <span class="author-block"><a href="https://yuyinzhou.github.io/">Yuyin Zhou</a>,</span>
+        <span class="author-block"><a href="https://openreview.net/profile?id=~Lu_Wang26">Lu Wang</a><sup>†</sup>,</span>
+        <span class="author-block"><a href="https://www.icip.org.cn/hanxianpei/">Xianpei Han</a><sup>†</sup></span>
+        <br>
+        <span class="paper-venue">arXiv, 2026</span>
+        <span class="paper-links">
+          <a href="https://zhihaoyang30.github.io/skill-adaptation/paper.pdf">[paper]</a>
+          <a href="https://zhihaoyang30.github.io/skill-adaptation/">[project page]</a>
+        </span>
+        <p>
+          A meta-skill that adapts harness guidance to the executor's capability, so self-evolution helps both weak and strong agents without updating model parameters.
+        </p>
       </td>
     </tr>
 
@@ -86,22 +230,22 @@
         <a href="https://arxiv.org/abs/2510.05134">
           <span class="papertitle">Structuring Reasoning for Complex Rules Beyond Flat Representations</span>
         </a><br>
-        <span class="author-block"><strong>Zhihao Yang</strong><sup>*</sup>,</span>
-        <span class="author-block">Ancheng Xu<sup>*</sup>,</span>
-        <span class="author-block">Jingpeng Li,</span>
-        <span class="author-block">Liang Yan,</span>
-        <span class="author-block">Jiehui Zhou,</span>
-        <span class="author-block">Zhen Qin,</span>
-        <span class="author-block">Hengyu Chang,</span>
-        <span class="author-block">Yukun Chen,</span>
-        <span class="author-block">Longze Chen,</span>
-        <span class="author-block">Ahmadreza Argha,</span>
-        <span class="author-block">Hamid Alinejad-Rokny,</span>
-        <span class="author-block">Minghuan Tan,</span>
-        <span class="author-block">Yujun Cai,</span>
-        <span class="author-block">Min Yang</span>
+        <span class="author-block"><strong class="author-self">Zhihao Yang</strong><sup>*</sup>,</span>
+        <span class="author-block"><a href="https://github.com/acxold">Ancheng Xu</a><sup>*</sup>,</span>
+        <span class="author-block"><a href="https://scholar.google.com/scholar?q=%22Jingpeng+Li%22+%22Min+Yang%22">Jingpeng Li</a>,</span>
+        <span class="author-block"><a href="https://scholar.google.com/scholar?q=%22Liang+Yan%22+%22Min+Yang%22">Liang Yan</a>,</span>
+        <span class="author-block"><a href="https://scholar.google.com/scholar?q=%22Jiehui+Zhou%22+%22Min+Yang%22">Jiehui Zhou</a>,</span>
+        <span class="author-block"><a href="https://scholar.google.com/scholar?q=%22Zhen+Qin%22+%22Min+Yang%22">Zhen Qin</a>,</span>
+        <span class="author-block"><a href="https://scholar.google.com/scholar?q=%22Hengyu+Chang%22">Hengyu Chang</a>,</span>
+        <span class="author-block"><a href="https://scholar.google.com/citations?user=JWxSJVgAAAAJ&hl=en">Yukun Chen</a>,</span>
+        <span class="author-block"><a href="https://scholar.google.com/scholar?q=%22Longze+Chen%22">Longze Chen</a>,</span>
+        <span class="author-block"><a href="https://www.unsw.edu.au/staff/reza-argha">Ahmadreza Argha</a>,</span>
+        <span class="author-block"><a href="https://www.unsw.edu.au/staff/hamid-alinejad-rokny">Hamid Alinejad-Rokny</a>,</span>
+        <span class="author-block"><a href="https://scholar.google.com/scholar?q=%22Minghuan+Tan%22">Minghuan Tan</a>,</span>
+        <span class="author-block"><a href="https://vanoracai.github.io/">Yujun Cai</a>,</span>
+        <span class="author-block"><a href="https://minyang.me/">Min Yang</a></span>
         <br>
-        <em>arXiv</em>, 2025 <a href="https://arxiv.org/abs/2510.05134">[arXiv]</a>
+        <span class="paper-venue">arXiv, 2025</span> <span class="paper-links"><a href="https://arxiv.org/abs/2510.05134">[arXiv]</a></span>
         <p>
           An approach which equips LLMs with a structured template to methodically gather and verify evidence within complex rule systems, drastically improving reasoning fidelity.
         </p>
@@ -117,20 +261,20 @@
         <a href="https://arxiv.org/abs/2505.17654">
           <span class="papertitle">Evade: Multimodal benchmark for evasive content detection in e-commerce applications</span>
         </a><br>
-        <span class="author-block">Ancheng Xu<sup>*</sup>,</span>
-        <span class="author-block"><strong>Zhihao Yang</strong><sup>*</sup>,</span>
-        <span class="author-block">Jingpeng Li,</span>
-        <span class="author-block">Guanghu Yuan,</span>
-        <span class="author-block">Longze Chen,</span>
-        <span class="author-block">Liang Yan,</span>
-        <span class="author-block">Jiehui Zhou,</span>
-        <span class="author-block">Zhen Qin,</span>
-        <span class="author-block">Hengyun Chang,</span>
-        <span class="author-block">Hamid Alinejad-Rokny,</span>
-        <span class="author-block">Bo Zheng,</span>
-        <span class="author-block">Min Yang.</span>
+        <span class="author-block"><a href="https://github.com/acxold">Ancheng Xu</a><sup>*</sup>,</span>
+        <span class="author-block"><strong class="author-self">Zhihao Yang</strong><sup>*</sup>,</span>
+        <span class="author-block"><a href="https://scholar.google.com/scholar?q=%22Jingpeng+Li%22+%22Min+Yang%22">Jingpeng Li</a>,</span>
+        <span class="author-block"><a href="https://scholar.google.com/scholar?q=%22Guanghu+Yuan%22">Guanghu Yuan</a>,</span>
+        <span class="author-block"><a href="https://scholar.google.com/scholar?q=%22Longze+Chen%22">Longze Chen</a>,</span>
+        <span class="author-block"><a href="https://scholar.google.com/scholar?q=%22Liang+Yan%22+%22Min+Yang%22">Liang Yan</a>,</span>
+        <span class="author-block"><a href="https://scholar.google.com/scholar?q=%22Jiehui+Zhou%22+%22Min+Yang%22">Jiehui Zhou</a>,</span>
+        <span class="author-block"><a href="https://scholar.google.com/scholar?q=%22Zhen+Qin%22+%22Min+Yang%22">Zhen Qin</a>,</span>
+        <span class="author-block"><a href="https://scholar.google.com/scholar?q=%22Hengyu+Chang%22">Hengyun Chang</a>,</span>
+        <span class="author-block"><a href="https://www.unsw.edu.au/staff/hamid-alinejad-rokny">Hamid Alinejad-Rokny</a>,</span>
+        <span class="author-block"><a href="https://scholar.google.com/scholar?q=%22Bo+Zheng%22+Alibaba">Bo Zheng</a>,</span>
+        <span class="author-block"><a href="https://minyang.me/">Min Yang</a>.</span>
         <br>
-        SIGIR 2026 (CCF-A) <a href="https://zhihaoyang30.github.io/EVADE-bench/">[project page]</a> <a href="https://arxiv.org/abs/2505.17654">[arXiv]</a>
+        <span class="paper-venue">SIGIR, 2026 (CCF-A)</span> <span class="paper-links"><a href="https://zhihaoyang30.github.io/EVADE-bench/">[project page]</a> <a href="https://arxiv.org/abs/2505.17654">[arXiv]</a></span>
         <p>
           EVADE-Bench introduces a multimodal benchmark to evaluate evasive content detection and provides a strong foundation for developing more robust detection systems.
         </p>
@@ -152,17 +296,17 @@
         <a href="https://arxiv.org/abs/2603.29557">
           <span class="papertitle">FlowPIE: Test-Time Scientific Idea Evolution with Flow-Guided Literature Exploration</span>
         </a><br>
-        <span class="author-block">Qiyao Wang,</span>
-        <span class="author-block">Hongbo Wang,</span>
-        <span class="author-block">Longze Chen,</span>
-        <span class="author-block"><strong>Zhihao Yang</strong>,</span>
-        <span class="author-block">Guhong Chen,</span>
-        <span class="author-block">Hamid Alinejad-Rokny,</span>
-        <span class="author-block">Hui Li,</span>
-        <span class="author-block">Yuan Lin,</span>
-        <span class="author-block">Min Yang.</span>
+        <span class="author-block"><a href="https://qiyao-wang.github.io/">Qiyao Wang</a>,</span>
+        <span class="author-block"><a href="https://scholar.google.com/scholar?q=%22Hongbo+Wang%22+%22Yuan+Lin%22">Hongbo Wang</a>,</span>
+        <span class="author-block"><a href="https://scholar.google.com/scholar?q=%22Longze+Chen%22">Longze Chen</a>,</span>
+        <span class="author-block"><strong class="author-self">Zhihao Yang</strong>,</span>
+        <span class="author-block"><a href="https://scholar.google.com/scholar?q=%22Guhong+Chen%22">Guhong Chen</a>,</span>
+        <span class="author-block"><a href="https://www.unsw.edu.au/staff/hamid-alinejad-rokny">Hamid Alinejad-Rokny</a>,</span>
+        <span class="author-block"><a href="https://scholar.google.com/scholar?q=%22Hui+Li%22+Xiamen+%22Min+Yang%22">Hui Li</a>,</span>
+        <span class="author-block"><a href="http://faculty.dlut.edu.cn/linyuan/zh_CN/index.htm">Yuan Lin</a>,</span>
+        <span class="author-block"><a href="https://minyang.me/">Min Yang</a>.</span>
         <br>
-        <em>arXiv</em>, 2026. <a href="https://arxiv.org/abs/2603.29557">[arXiv]</a>
+        <span class="paper-venue">arXiv, 2026</span> <span class="paper-links"><a href="https://arxiv.org/abs/2603.29557">[arXiv]</a></span>
         <p>
           FlowPIE tightly couples literature retrieval with idea generation through flow-guided search and test-time evolution, producing research ideas that are more novel, diverse, and feasible than strong LLM- and agent-based baselines.
         </p>
@@ -178,21 +322,22 @@
         <a href="https://arxiv.org/abs/2602.21628">
           <span class="papertitle">RuCL: Stratified Rubric-Based Curriculum Learning for Multimodal Large Language Model Reasoning</span>
         </a><br>
-        <span class="author-block">Yukun Chen,</span>
-        <span class="author-block">Jiaming Li,</span>
-        <span class="author-block">Longze Chen,</span>
-        <span class="author-block">Ze Gong,</span>
-        <span class="author-block">Jingpeng Li,</span>
-        <span class="author-block">Zhen Qin,</span>
-        <span class="author-block">Hengyu Chang,</span>
-        <span class="author-block">Ancheng Xu,</span>
-        <span class="author-block"><strong>Zhihao Yang</strong>,</span>
-        <span class="author-block">Hamid Alinejad-Rokny,</span>
-        <span class="author-block">Qiang Qu,</span>
-        <span class="author-block">Bo Zheng,</span>
-        <span class="author-block">Min Yang.</span>
+        <span class="author-block"><a href="https://scholar.google.com/citations?user=JWxSJVgAAAAJ&hl=en">Yukun Chen</a>,</span>
+        <span class="author-block"><a href="https://scholar.google.com/scholar?q=%22Jiaming+Li%22+%22Min+Yang%22">Jiaming Li</a>,</span>
+        <span class="author-block"><a href="https://scholar.google.com/scholar?q=%22Longze+Chen%22">Longze Chen</a>,</span>
+        <span class="author-block"><a href="https://scholar.google.com/scholar?q=%22Ze+Gong%22+%22Min+Yang%22">Ze Gong</a>,</span>
+        <span class="author-block"><a href="https://scholar.google.com/scholar?q=%22Jingpeng+Li%22+%22Min+Yang%22">Jingpeng Li</a>,</span>
+        <span class="author-block"><a href="https://scholar.google.com/scholar?q=%22Zhen+Qin%22+%22Min+Yang%22">Zhen Qin</a>,</span>
+        <span class="author-block"><a href="https://scholar.google.com/scholar?q=%22Hengyu+Chang%22">Hengyu Chang</a>,</span>
+        <span class="author-block"><a href="https://github.com/acxold">Ancheng Xu</a>,</span>
+        <span class="author-block"><strong class="author-self">Zhihao Yang</strong>,</span>
+        <span class="author-block"><a href="https://www.unsw.edu.au/staff/hamid-alinejad-rokny">Hamid Alinejad-Rokny</a>,</span>
+        <span class="author-block"><a href="https://scholar.google.com/scholar?q=%22Qiang+Qu%22+SIAT">Qiang Qu</a>,</span>
+        <span class="author-block"><a href="https://scholar.google.com/scholar?q=%22Bo+Zheng%22+Alibaba">Bo Zheng</a>,</span>
+        <span class="author-block"><a href="https://minyang.me/">Min Yang</a>.</span>
         <br>
-        ICML 2026 (CCF-A) <a href="https://arxiv.org/abs/2602.21628">[arXiv]</a>
+        <span class="paper-venue">ICML, 2026 (CCF-A)</span>
+        <span class="paper-links"><a href="https://arxiv.org/abs/2602.21628">[arXiv]</a></span>
         <p>
           RuCL reframes curriculum learning around reward design by stratifying rubrics according to model competence, then dynamically reweighting them to progressively improve multimodal reasoning from perception to higher-order logic.
         </p>
@@ -210,7 +355,15 @@
           
           <!-- ========== Experience Block Start ========== -->
     <div style="margin-bottom: 30px; overflow: hidden;">
-      <p style="margin-bottom: 12px;"><img src="images/ali.png" alt="Alibaba" style="float: right; margin-right: 20px; width: 140px; height: 60px;"></p>
+      <p style="margin-bottom: 12px;"><img src="images/mihoyo.svg" alt="miHoYo" style="float: right; margin-right: 20px; width: 140px; height: 60px; object-fit: contain;"></p>
+      <h4 style="margin: 0 10px 16px;"><a href="https://www.mihoyo.com/">miHoYo</a>, miHoYo Honkai AI R&D Team</h4>
+      <ul style="margin: 0 0 20px; list-style-type: none;">
+        <li style="margin-bottom: 8px;">Foundation Model Research Intern, 2026</li>
+        <li>Research Topic: Game Agents and Game VLA</li>
+      </ul>
+    </div>
+    <div style="margin-bottom: 30px; overflow: hidden;">
+      <p style="margin-bottom: 12px;"><img src="images/ali.png" alt="Alibaba" style="float: right; margin-right: 20px; width: 140px; height: 60px; object-fit: contain;"></p>
       <h4 style="margin: 0 10px 16px;"><a href="https://www.alibabagroup.com/en/global/home">Alibaba Group</a>, Taotian Group – Alimama Advertising Technology Department</h4>
       <ul style="margin: 0 0 20px; list-style-type: none;">
         <li style="margin-bottom: 8px;"><autocolor>Research Intern, 2025</autocolor></li>
