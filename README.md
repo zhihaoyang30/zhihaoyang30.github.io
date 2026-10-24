@@ -19,7 +19,7 @@ Restart reason for a content change: the static server does not need a restart a
 
 ## Bio
 
-The intro lists the current advisor as [Xianpei Han](https://www.icip.org.cn/hanxianpei/). Min Yang and Yujun Cai are previous advisors. Research interest is Game & Agent. The line below the intro is hobbies: basketball, rock climbing, the [Golden State Warriors](https://www.nba.com/warriors/), and being a fan of [Stephen Curry](https://www.nba.com/player/201939/stephen-curry). The browser tab icon is an original cartoon in `images/favicon/`. Replace those files together if the icon changes, and bump the `?v=` query on the favicon links in `index.html` so browsers drop the cached icon.
+The intro lists the current advisor as [Xianpei Han](https://www.icip.org.cn/hanxianpei/). Min Yang and Yujun Cai are previous advisors. Research interest is Game & Agent. The email sits under the name as plain text (`yangzhihao25 [at] mails.ucas.ac.cn`), matching the layout on [Boyuan Zheng's site](https://zhengbryan.github.io/). The line below the intro is hobbies: basketball, rock climbing, the [Golden State Warriors](https://www.nba.com/warriors/), and being a fan of [Stephen Curry](https://www.nba.com/player/201939/stephen-curry). The profile photo uses a small corner radius. The browser tab icon is `images/favicon/`, generated from the sheep image. Replace those files together if the icon changes, and bump the `?v=` query on the favicon links in `index.html` so browsers drop the cached icon.
 
 ## Publications on the homepage
 
