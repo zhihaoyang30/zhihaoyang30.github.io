@@ -30,7 +30,7 @@ First-author entries currently include:
 | Scaling in Games | looping preview video `images/gamescaling.mp4` | paper / project / github / models / demo |
 | Video-Arena | looping preview video `images/video-arena.mp4` | paper / project / github / dataset / demo |
 | PIVOT | `images/PIVOT.png` (Figure 1 from the ICLR 2027 draft) | venue only for now |
-| Skill Adaptation | `images/skill-adaptation.png` (method pipeline from the project page) | arXiv `2610.33024` / project page / github (`skill-adaptation-code`) / daily paper / demo |
+| Skill Adaptation | `images/skill-adaptation.png` (method pipeline from the project page) | arXiv `2610.33024` / project page / github (`skill-adaptation-code`) |
 | EVADE | `images/EVADE-Bench.png` | project / arXiv |
 | Structuring Reasoning | `images/DAT.png` | arXiv |
 
