@@ -34,7 +34,15 @@ First-author entries currently include:
 | EVADE | `images/EVADE-Bench.png` | project / arXiv |
 | Structuring Reasoning | `images/DAT.png` | arXiv |
 
-Venue lines use italic 15px text in the form `SIGIR, 2026 (CCF-A)`. Preprints are written as `arXiv, 2026`. Coauthor names link to a homepage when one could be verified, and otherwise to a Google Scholar search. Zhihao Yang stays unlinked and bold.
+Co-authored entries currently include:
+
+| Work | Thumbnail | Links used |
+| --- | --- | --- |
+| LLM2Cert | `images/LLM2Cert.png` | arXiv `2610.30524` / project page / github / dataset / X |
+| FlowPIE | `images/FlowPIE.png` | paper / project page / github / data |
+| RuCL | `images/CuRL.png` | arXiv |
+
+Venue lines use italic 15px text in the form `SIGIR, 2026 (CCF-A)`. Preprints are written as `arXiv, 2026`. Coauthor names link to a homepage when one could be verified, and otherwise to a Google Scholar search. Zhihao Yang stays unlinked and bold. On LLM2Cert, `*` is equal contribution and `†` is equal advising.
 
 Working experience includes miHoYo (`images/mihoyo.svg`) and Alibaba (`images/ali.png`). Each block uses the same two lines: role and year, then `Research Topic: ...`.
 
