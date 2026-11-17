@@ -27,7 +27,8 @@ First-author entries currently include:
 
 | Work | Thumbnail | Links used |
 | --- | --- | --- |
-| Scaling in Games | looping preview video `images/gamescaling.mp4` | paper / project / github / models / demo |
+| Gamer | looping preview `images/gamer.gif` | daily paper #2 / arXiv `2611.18397` / project / github (`RainBowLuoCS/Gamer`, live star count) |
+| Scaling in Games | looping preview video `images/gamescaling.mp4` | daily paper #3 / paper / project / github (live stars) / models (HF downloads) / demo |
 | Video-Arena | looping preview video `images/video-arena.mp4` | paper / project / github / dataset / demo |
 | PIVOT | `images/PIVOT.png` | arXiv `2610.40576` / project page |
 | Skill Adaptation | `images/skill-adaptation.png` (method pipeline from the project page) | arXiv `2610.33024` / project page / github (`skill-adaptation-code`) / X |
@@ -43,6 +44,8 @@ Co-authored entries currently include:
 | RuCL | `images/CuRL.png` | arXiv |
 
 Venue lines use italic 15px text in the form `SIGIR, 2026 (CCF-A)`. Preprints are written as `arXiv, 2026`. Coauthor names link to a homepage when one could be verified, and otherwise to a Google Scholar search. Zhihao Yang stays unlinked and bold. On LLM2Cert, `*` is equal contribution and `†` is equal advising.
+
+Live counts are injected by an inline `<script>` before `</body>`: GitHub stars come from `api.github.com/repos/{repo}` into `[data-github-stars]`, and HF downloads from `huggingface.co/api/models/{model}` into `[data-hf-model]` (`downloadsAllTime` with a `downloads` fallback). The star is an inline 12px SVG filled `#e3b341` (an emoji `★` ignores CSS color on macOS). The download count renders at 11px. The `#N` in `[daily paper #N]` is wrapped in `.daily-rank` (`#e8590c` orange). Static fallback numbers sit in the HTML so the page still works when the APIs are unreachable.
 
 Working experience includes miHoYo (`images/mihoyo.svg`) and Alibaba (`images/ali.png`). Each block uses the same two lines: role and year, then `Research Topic: ...`.
 

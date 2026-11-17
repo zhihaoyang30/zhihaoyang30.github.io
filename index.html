@@ -70,7 +70,42 @@
     <tr>
       <td style="padding:8px 16px 0;" colspan="2">
         <h3 style="margin:0;">First Author</h3>
-        <p class="pub-note">* equal contribution; † corresponding author</p>
+        <p class="pub-note">* equal contribution / core contributors; † corresponding author</p>
+      </td>
+    </tr>
+
+    <!-- First Author: Gamer -->
+    <tr>
+      <td style="padding:16px;width:20%;vertical-align:middle">
+        <a class="paper-thumb" href="https://mihoyo-gamer.github.io/" target="_blank" rel="noopener noreferrer">
+          <img src="images/gamer.gif" alt="Gamer gameplay expanding from one game into a mosaic of many games">
+        </a>
+      </td>
+      <td style="padding:8px;width:80%;vertical-align:middle">
+        <a href="https://arxiv.org/abs/2611.18397">
+          <span class="papertitle">Gamer: A Generalist Vision-Language-Action Foundation Model for Long-Horizon Real-Time Game Agent</span>
+        </a><br>
+        <span class="author-block"><a href="https://rainbowluocs.github.io/">Run Luo</a><sup>*</sup>,</span>
+        <span class="author-block"><a href="https://itheresaapocalypse.github.io/">Kuan Zhang</a><sup>*</sup>,</span>
+        <span class="author-block"><a href="https://scholar.google.com/scholar?q=%22Qi+Deng%22+Gamer">Qi Deng</a><sup>*</sup>,</span>
+        <span class="author-block"><a href="https://scholar.google.com/citations?user=JWxSJVgAAAAJ&hl=en">Yukun Chen</a><sup>*</sup>,</span>
+        <span class="author-block"><strong class="author-self">Zhihao Yang</strong><sup>*</sup>,</span>
+        …,
+        <span class="author-block"><a href="https://scholar.google.com/scholar?q=%22Yinhe+Zheng%22">Yinhe Zheng</a><sup>†</sup>,</span>
+        <span class="author-block"><a href="https://scholar.google.com/scholar?q=%22Xiaobo+Xia%22">Xiaobo Xia</a><sup>†</sup>,</span>
+        <span class="author-block"><a href="https://scholar.google.com/scholar?q=%22Dawei+Jiang%22">Dawei Jiang</a><sup>†</sup>,</span>
+        <span class="author-block"><a href="https://scholar.google.com/scholar?q=%22Shaoqing+Ren%22">Shaoqing Ren</a><sup>†</sup></span>
+        <br>
+        <span class="paper-venue">arXiv, 2026 · * Core contributors</span>
+        <span class="paper-links">
+          <a href="https://huggingface.co/papers/2611.18397">[daily paper <span class="daily-rank">#2</span>]</a>
+          <a href="https://arxiv.org/abs/2611.18397">[paper]</a>
+          <a href="https://mihoyo-gamer.github.io/">[project page]</a>
+          <a href="https://github.com/RainBowLuoCS/Gamer">[github <span class="github-star-count" data-github-stars="RainBowLuoCS/Gamer"><svg class="github-star" width="12" height="12" viewBox="0 0 16 16" fill="#e3b341" aria-hidden="true"><path d="M8 .25a.75.75 0 0 1 .673.418l1.882 3.815 4.21.612a.75.75 0 0 1 .416 1.279l-3.046 2.97.719 4.192a.751.751 0 0 1-1.088.791L8 12.347l-3.766 1.98a.75.75 0 0 1-1.088-.79l.72-4.194L.818 6.374a.75.75 0 0 1 .416-1.28l4.21-.611L7.327.668A.75.75 0 0 1 8 .25Z"/></svg> 140</span>]</a>
+        </span>
+        <p>
+          A generalist game agent combining sparse reasoning, persistent memory, and online reinforcement learning for real-time play.
+        </p>
       </td>
     </tr>
 
@@ -101,10 +136,11 @@
         <br>
         <span class="paper-venue">arXiv, 2026</span>
         <span class="paper-links">
+          <a href="https://huggingface.co/papers/2610.28698">[daily paper <span class="daily-rank">#3</span>]</a>
           <a href="https://arxiv.org/abs/2610.28698">[paper]</a>
           <a href="https://gamescaling.github.io/">[project page]</a>
-          <a href="https://github.com/THUSI-Lab/GameScaling">[github]</a>
-          <a href="https://huggingface.co/THUSI-Lab/GameScaling">[models]</a>
+          <a href="https://github.com/THUSI-Lab/GameScaling">[github <span class="github-star-count" data-github-stars="THUSI-Lab/GameScaling"><svg class="github-star" width="12" height="12" viewBox="0 0 16 16" fill="#e3b341" aria-hidden="true"><path d="M8 .25a.75.75 0 0 1 .673.418l1.882 3.815 4.21.612a.75.75 0 0 1 .416 1.279l-3.046 2.97.719 4.192a.751.751 0 0 1-1.088.791L8 12.347l-3.766 1.98a.75.75 0 0 1-1.088-.79l.72-4.194L.818 6.374a.75.75 0 0 1 .416-1.28l4.21-.611L7.327.668A.75.75 0 0 1 8 .25Z"/></svg> 517</span>]</a>
+          <a href="https://huggingface.co/THUSI-Lab/GameScaling">[models <span class="hf-download-count" data-hf-model="THUSI-Lab/GameScaling">↓ 4644</span>]</a>
           <a href="https://gamescaling.github.io/videos/promo/promo.mp4">[demo]</a>
         </span>
         <p>
@@ -425,5 +461,37 @@
         </td>
       </tr>
     </table>
+    <script>
+      (function () {
+        function formatCount(n) {
+          return String(n);
+        }
+        document.querySelectorAll("[data-github-stars]").forEach(function (el) {
+          var repo = el.getAttribute("data-github-stars");
+          if (!repo) return;
+          fetch("https://api.github.com/repos/" + repo)
+            .then(function (res) { return res.ok ? res.json() : null; })
+            .then(function (data) {
+              if (!data || typeof data.stargazers_count !== "number") return;
+              el.innerHTML = '<svg class="github-star" width="12" height="12" viewBox="0 0 16 16" fill="#e3b341" aria-hidden="true"><path d="M8 .25a.75.75 0 0 1 .673.418l1.882 3.815 4.21.612a.75.75 0 0 1 .416 1.279l-3.046 2.97.719 4.192a.751.751 0 0 1-1.088.791L8 12.347l-3.766 1.98a.75.75 0 0 1-1.088-.79l.72-4.194L.818 6.374a.75.75 0 0 1 .416-1.28l4.21-.611L7.327.668A.75.75 0 0 1 8 .25Z"/></svg> ' + formatCount(data.stargazers_count);
+            })
+            .catch(function () {});
+        });
+        document.querySelectorAll("[data-hf-model]").forEach(function (el) {
+          var model = el.getAttribute("data-hf-model");
+          if (!model) return;
+          fetch("https://huggingface.co/api/models/" + model)
+            .then(function (res) { return res.ok ? res.json() : null; })
+            .then(function (data) {
+              if (!data) return;
+              var n = data.downloadsAllTime;
+              if (typeof n !== "number") n = data.downloads;
+              if (typeof n !== "number") return;
+              el.textContent = "↓ " + formatCount(n);
+            })
+            .catch(function () {});
+        });
+      })();
+    </script>
   </body>
 </html>
