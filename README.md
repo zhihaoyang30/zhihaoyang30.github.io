@@ -27,21 +27,23 @@ First-author entries currently include:
 
 | Work | Thumbnail | Links used |
 | --- | --- | --- |
-| Gamer | looping preview `images/gamer.gif` | daily paper #2 / arXiv `2611.18397` / project / github (`RainBowLuoCS/Gamer`, live star count) |
-| Scaling in Games | looping preview video `images/gamescaling.mp4` | daily paper #3 / paper / project / github (live stars) / models (HF downloads) / demo |
-| Video-Arena | looping preview video `images/video-arena.mp4` | paper / project / github / dataset / demo |
-| PIVOT | `images/PIVOT.png` | arXiv `2610.40576` / project page |
-| Skill Adaptation | `images/skill-adaptation.png` (method pipeline from the project page) | arXiv `2610.33024` / project page / github (`skill-adaptation-code`) / X |
-| EVADE | `images/EVADE-Bench.png` | project / arXiv |
-| Structuring Reasoning | `images/DAT.png` | arXiv |
+| GameDojo | looping preview `images/gamedojo.mp4` (Genichiro sword fight) | arXiv `2611.30771` / project / github (`THUSI-Lab/GameDojo`, live stars) / benchmark & dataset / model (`THUSI-Lab/GameDojo-4B`, live downloads) / demo |
+| Gamer | looping preview `images/gamer.gif` | daily paper #1 / arXiv `2611.18397` / project / github (`RainBowLuoCS/Gamer`, live star count) |
+| Scaling in Games | looping preview video `images/gamescaling.mp4` | daily paper #3 / paper / project / github (live stars) / model (HF downloads) / demo |
+| Video-Arena | looping preview video `images/video-arena.mp4` | paper / project / github (live stars) / benchmark & dataset / demo |
+| PIVOT | `images/PIVOT.png` | paper / project page |
+| Skill Adaptation | `images/skill-adaptation.png` (method pipeline from the project page) | paper / project page / github (`skill-adaptation-code`, live stars) / X |
+| EVADE | `images/EVADE-Bench.png` | paper / project / benchmark & dataset (`koenshen/EVADE-Bench`) |
 
 Co-authored entries currently include:
 
 | Work | Thumbnail | Links used |
 | --- | --- | --- |
-| LLM2Cert | `images/LLM2Cert.png` | arXiv `2610.30524` / project page / github / dataset / X |
-| FlowPIE | `images/FlowPIE.png` | paper / project page / github / data |
-| RuCL | `images/CuRL.png` | arXiv |
+| LLM2Cert | `images/LLM2Cert.png` | paper / project page / github (live stars) / benchmark & dataset / X |
+| FlowPIE | `images/FlowPIE.png` | paper / project page / github (live stars) / benchmark & dataset |
+| RuCL | `images/CuRL.png` | paper |
+
+Each paper's links follow this order, and a missing item is left out: `[daily paper #N]`, `[paper]`, `[project page]`, `[github]` with a live star count, `[benchmark & dataset]`, `[model]` with a live download count, `[demo]`. An X post link stays after that sequence.
 
 Venue lines use italic 15px text in the form `SIGIR, 2026 (CCF-A)`. Preprints are written as `arXiv, 2026`. Coauthor names link to a homepage when one could be verified, and otherwise to a Google Scholar search. Zhihao Yang stays unlinked and bold. On LLM2Cert, `*` is equal contribution and `†` is equal advising.
 
@@ -53,6 +55,6 @@ To swap a thumbnail, replace the corresponding file under `images/` and keep the
 
 ## Common issues
 
-- Video does not play: the preview clips are muted looping MP4s. Check that `images/gamescaling.mp4` and `images/video-arena.mp4` are present, then hard-refresh.
+- Video does not play: the preview clips are muted looping MP4s. Check that `images/gamedojo.mp4`, `images/gamescaling.mp4`, and `images/video-arena.mp4` are present, then hard-refresh.
 - Port already in use: `./stop.sh`, or start with `PORT=9000 ./run.sh`.
 - Preview shows an old page: this is a static server; reload the tab. If CSS looks stale, hard-refresh.
